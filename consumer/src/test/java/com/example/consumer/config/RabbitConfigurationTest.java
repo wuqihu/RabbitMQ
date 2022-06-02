@@ -1,0 +1,29 @@
+//package com.example.consumer.config;
+//
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.amqp.rabbit.core.RabbitTemplate;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.test.context.ContextConfiguration;
+//import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+//
+//
+//@RunWith(SpringJUnit4ClassRunner.class)//让测试运行于Spring测试环境
+//@ContextConfiguration(classes = RabbitConfiguration.class)//提供配置信息
+//public class RabbitConfigurationTest {
+//
+//    @Autowired
+//    RabbitTemplate template;
+//
+////    @Test
+////    public void send() throws InterruptedException {
+////        String message = "您好，欢迎访问 吴其虎的博客";
+////        //这里故意将routingKey参数写入错误，让其应发确认消息送到队列失败回调
+////        template.convertAndSend(RabbitConfiguration.EXCHANGE_NAME, "routing_key", message);
+////        while (true){
+////            Thread.sleep(1000);
+////        }
+////    }
+//
+//
+//}
